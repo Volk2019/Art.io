@@ -1,0 +1,60 @@
+body {
+
+    margin:0;
+    padding:0;
+
+    }
+/* Задаем ширину меню */
+#menu{
+    widows:200px;
+    margin:0px;
+}
+/* Стили для наших пунктов меню */
+#menu ul{
+    list-style:none;
+}
+#menu li{
+    list-style:none;
+    display:block;
+    line-height:32px;
+    height:32px;
+    margin:7px 0;
+    width:200px;
+}
+#menu li a{
+    display:block;
+    height:33px;
+   /* text-transform: capitalize; uppercase;*/
+    font-size:14px;
+    font-weight:bold;
+    line-height:32px;
+    padding:0 0 0 25px;
+    text-decoration:none;
+    color:rgb(65, 32, 155);
+    background: rgb(183, 234, 250);
+    border:solid 1px #006A35;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+
+ul.list {
+    margin-left: 2em;
+    margin-top: 1em;
+}
+/* Подсветка наведденого пункта */
+#menu li a:hover{
+
+    background: rgb(66, 165, 66);
+
+    color:#fff;
+
+}
+
+
+    
+
+
+
+
+    
